@@ -18,9 +18,9 @@ sudo cpanm --installdeps .
 sudo ln -s /usr/local/serge/serge-master/bin/serge /usr/local/bin/serge
 
 # 6.03 актуальная, ставим 6.01 принудительно так как 6.03 вызывает неразрешаемые зависимости
-sudo cpanm https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+sudo cpanm HTTP::Daemon@6.01
 
-sudo cpanm https://github.com/ta2-1/smartcat-serge-sync-plugin/tarball/master
+sudo cpanm Serge::Sync::Plugin::TranslationService::Smartcat
 
 sudo cpan install LWP::Protocol::https
 
