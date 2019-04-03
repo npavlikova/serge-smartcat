@@ -38,7 +38,4 @@ sudo -u serge mkdir groups
 cd groups
 sudo -u serge mkdir myproject
 cd myproject
-sudo -u serge touch branches.list
-sudo -u serge cp /usr/local/serge/serge-master/bin/tools/feature-branch-config-generator/myproject.cfg /usr/local/serge/serge-master/groups/myproject
-sudo -u serge cp /usr/local/serge/serge-master/bin/tools/feature-branch-config-generator/myproject.inc /usr/local/serge/serge-master/groups/myproject
-sudo -u serge cp /usr/local/serge/serge-master/bin/tools/feature-branch-config-generator/myproject.serge.tmpl /usr/local/serge/serge-master/groups/myproject
+sudo -u serge cp /usr/local/serge/serge-master/bin/tools/feature-branch-config-generator/{myproject.cfg,myproject.inc,myproject.serge.tmpl,branches.txt} /usr/local/serge/serge-master/groups/myproject
